@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/loginform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGINFORM"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorAccent"
+
+        />
+    <EditText
+        android:id="@+id/Names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Names"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="180dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:inputType="textPassword"
+        android:layout_marginTop="260dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="login"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="confirm"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="380dp"/>
+
+</RelativeLayout>

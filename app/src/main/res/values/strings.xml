@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Restaurants</string>
+    <string name="my_image">my image</string>
+    <string name="inam_igeno">inam igeno</string>
+    <string name="inamgeno_gmail_com">inamgeno@gmail.com</string>
+    <string name="chairs">chairs</string>
+    <string name="tables">tables</string>
+    <string name="plates">plates</string>
+    <string name="food">food</string>
+    <string name="subheader">subheader</string>
+    <string name="all_material">all material</string>
+    <string name="dishes">dishes</string>
+    <string name="cleaner">cleaner</string>
+</resources>
